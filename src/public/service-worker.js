@@ -12,7 +12,16 @@ var urlsToCache = [
   "/icons/icon-512x512.png",
 ];
 
-// Adding event listener to install  event
+// Adding event listener to install event
+self.addEventListener("install", function (event) {
+  // Perform install steps
+  event.waitUntil(
+    caches.open(CACHE_NAME).then(function (cache) {
+      console.log("Opened cache");
+      return cache.addAll(urlsToCache);
+    })
+  );
+});
 
 //Adding activate events to remove old cache
 
