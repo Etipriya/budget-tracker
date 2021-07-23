@@ -18,10 +18,11 @@ app.use(express.static("public"));
 mongoose.connect("mongodb://localhost/budget", {
   useNewUrlParser: true,
   useFindAndModify: false,
+  useUnifiedTopology: true,
 });
 
 // routes
-app.use(require("./src/routes/api"));
+app.use(require("./routes/api"));
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
