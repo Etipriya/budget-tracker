@@ -15,11 +15,14 @@ This app is deployed through Heroku
 - When a user enters a transaction while offline, these transactions are stored in the indexedDB, and transferred to the database when the user comes back online.
 - This application is easy to use.
 
+- Home page is displayed as below
+  ![image](./images/budget-home.png)
+
 - This website helps you to add funds to your budget easily.
-  ![image](./images/add_funds.png)
+  ![image](./images/add-funds.png)
 
 - Also, it helps you to subtract the funds from your budget easily.
-  ![image](./images/subtract_funds.png)
+  ![image](./images/subtract-funds.png)
 
 ## Usage
 
