@@ -6,7 +6,7 @@ Budget Tracker is a progressive web application that allows users to track their
 
 This app is deployed through Heroku
 
-[Heroku](https://agile-harbor-94003.herokuapp.com/)
+[Heroku](https://eti-budget-tracker.herokuapp.com/)
 
 ## Project Description
 
